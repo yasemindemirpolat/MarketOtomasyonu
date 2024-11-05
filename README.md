@@ -91,7 +91,7 @@ c. **Yönetici**:
 - İndirim ve promosyon uygulama işlemleri.
 - Raporlama ve analiz işlemleri.
 
-  ![ER Diyagramı](Diyagram.jpg)
+  ![ER Diyagramı](Diyagram.png)
 
 
 
