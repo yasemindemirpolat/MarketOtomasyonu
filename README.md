@@ -101,7 +101,7 @@ c. **Yönetici**:
 -RAFBILGISI(_RafID,_Raficerigi)
 
 
-
+*
 
 
 
