@@ -115,3 +115,5 @@ c. **Yönetici**:
 -P-ERSONEL(\_personeID,\_personelAdi,\_personelAdresi,\_personelTelNo,\_personelEmail,\_calistigiKategoriID,\_Maas)
 -KATEGORI(\_kategoriID,\_kategoriAdi,\_kategoriSorumluPersonelAdi,\_kategoriStokDurumu)
 -RAFBILGISI(\_RafID,\_Raficerigi)
+
+-
