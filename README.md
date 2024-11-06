@@ -93,6 +93,12 @@ c. **Yönetici**:
 
   ![ER Diyagramı](Diyagram.png)
 
+-PERSONEL KART(_KartID,_Bakiye,_IndirimCeki)
+-MUSTERI(_MusteriID,_MusteriAdSoyad,_MusteriTelNo,_MusteriEmail,_MusteriAdres,_AlinanUrunID)
+-MUSTERIKART(_MusteriID,_Indirim,_Bakiye,_YapilanAlisveris)
+-P-ERSONEL(_personeID,_personelAdi,_personelAdresi,_personelTelNo,_personelEmail,_calistigiKategoriID,_Maas)
+-KATEGORI(_kategoriID,_kategoriAdi,_kategoriSorumluPersonelAdi,_kategoriStokDurumu)
+-RAFBILGISI(_RafID,_Raficerigi)
 
 
 
