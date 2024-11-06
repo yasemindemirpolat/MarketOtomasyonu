@@ -169,9 +169,12 @@ _RafBilgisiID):
 • Ürünlerin hangi rafta bulunduğunu belirten ilişkisel tablo.
 
 *İlişkiler:*
+
 • PERSONEL ve CALISTIGI_YER tabloları arasında 1 - n bir ilişki bulunmaktadır. Bir personel birden fazla
 kategoride çalışabilir, ancak her kategoride bir personel sorumlu olabilir.
+
 • URUNLISTESI ve KATEGORI tabloları arasında bir 1 - n ilişki vardır. Bir kategoriye ait birden fazla ürün
 olabilir, ancak her ürün bir kategoriye aittir.
+
 • URUN_RAF tablosu, URUNLISTESI ve RAFBILGISI tabloları arasında birleştirici bir tablo olarak
 kullanılarak, her ürünün hangi rafta bulunduğunu belirtir.
