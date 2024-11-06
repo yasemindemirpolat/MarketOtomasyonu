@@ -109,11 +109,46 @@ c. **Yönetici**:
 
   ![ER Diyagramı](Diyagram.png)
 
-**PERSONEL KART**(\_KartID,\_Bakiye,\_IndirimCeki)
--MUSTERI(\_MusteriID,\_MusteriAdSoyad,\_MusteriTelNo,\_MusteriEmail,\_MusteriAdres,\_AlinanUrunID)
--MUSTERIKART(\_MusteriID,\_Indirim,\_Bakiye,\_YapilanAlisveris)
--P-ERSONEL(\_personeID,\_personelAdi,\_personelAdresi,\_personelTelNo,\_personelEmail,\_calistigiKategoriID,\_Maas)
--KATEGORI(\_kategoriID,\_kategoriAdi,\_kategoriSorumluPersonelAdi,\_kategoriStokDurumu)
--RAFBILGISI(\_RafID,\_Raficerigi)
+### Tablolar ve Alanlar
+1. *PERSONEL KART* (_KartID, _Bakiye, _IndirimCeki):
+   - Market personelinin kimlik bilgilerini ve kart özelliklerini içerir.
+   - _KartID, her personel kartını benzersiz bir şekilde tanımlar.
+   - _Bakiye, personelin kartındaki para miktarını tutar.
+   - _IndirimCeki, personelin kullanabileceği indirim çeki miktarını gösterir.
 
--
+2. *MUSTERI* (_MusteriID, _MusteriAdSoyad, _MusteriTelNo, _MusteriEmail, _MusteriAdres, _AlinanUrunID):
+   - Müşteri bilgilerini ve satın alınan ürünleri içerir.
+   - _MusteriID, her müşteriyi benzersiz bir şekilde tanımlar.
+   - _AlinanUrunID, müşterinin satın aldığı ürünleri belirtir.
+
+3. *MUSTERIKART* (_MusteriID, _Indirim, _Bakiye, _YapilanAlisveris):
+   - Müşteri kart bilgilerini içerir.
+   - _Indirim, müşterinin kartına tanımlanan indirim oranını gösterir.
+   - _YapilanAlisveris, müşterinin toplam alışveriş miktarını tutar.
+
+4. *PERSONEL* (_personeID, _personelAdi, _personelAdresi, _personelTelNo, _personelEmail, _calistigiKategoriID, _Maas):
+   - Market personelinin genel bilgilerini ve çalıştığı kategoriyi içerir.
+   - _calistigiKategoriID, personelin çalıştığı kategoriyi belirtir.
+   - _Maas, personelin maaş bilgisini içerir.
+
+5. *KATEGORI* (_kategoriID, _kategoriAdi, _kategoriSorumluPersonelAdi, _kategoriStokDurumu):
+   - Ürün kategorilerini içerir.
+   - _kategoriID, her kategoriyi benzersiz bir şekilde tanımlar.
+   - _kategoriSorumluPersonelAdi, kategoriye sorumlu olan personelin adını belirtir.
+   - _kategoriStokDurumu, kategorinin genel stok durumunu gösterir.
+
+6. *RAFBILGISI* (_RafID, _Raficerigi):
+   - Rafların içeriğini ve hangi ürünlerin bulunduğunu içerir.
+   - _RafID, her rafı benzersiz bir şekilde tanımlar.
+
+7. *MARKA* (_MarkaID, _MarkaAdi, _MarkaStok, _UrunID):
+   - Markette bulunan markaları içerir.
+   - _MarkaID, her markayı benzersiz bir şekilde tanımlar.
+   - _MarkaStok, markanın genel stok durumunu gösterir.
+
+8. *INDIRIM* (_UygulananIndirimID, _UygulananMarkaID, _IndirimMiktari):
+   - Uygulanan indirimleri ve hangi markalara uygulandığını içerir.
+   - _UygulananIndirimID, her indirimi benzersiz bir şekilde tanımlar.
+   - _IndirimMiktari, uygulanan indirim miktarını gösterir.
+
+
