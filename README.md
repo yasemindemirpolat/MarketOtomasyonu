@@ -153,10 +153,10 @@ c. **Yönetici**:
 
 9. *URUNLISTESI Tablosu* (_UrunID, _KategoriID, _UrunAdi, _StokDurumu, _AlisFiyati, _SatisFiyati,
 _RafBilgisiID):
-• Markette bulunan ürünleri ve bu ürünlerin detaylarını içerir.
-• _UrunID, her ürünü benzersiz bir şekilde tanımlar.
-• _StokDurumu, ürünün stok durumunu gösterir.
-• _RafBilgisiID, ürünün hangi rafta bulunduğunu belirtir.
+- Markette bulunan ürünleri ve bu ürünlerin detaylarını içerir.
+- _UrunID, her ürünü benzersiz bir şekilde tanımlar.
+- _StokDurumu, ürünün stok durumunu gösterir.
+- _RafBilgisiID, ürünün hangi rafta bulunduğunu belirtir.
 
 10. *TEDARIKCI Tablosu* (_TedarikciID, _FirmaID, _TedarikciTelNo):
 • Markete ürün tedarik eden tedarikçilerin bilgilerini içerir.
